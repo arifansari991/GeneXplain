@@ -27,7 +27,7 @@
 * **Metrics Extraction:** Successfully extracted performance metrics evaluating model Accuracy, Precision, Recall, F1-Score, and ROC-AUC metrics.
 * **Error Diagnosis:** Generated and exported automated validation confusion matrices into the `visualizations/confusion_matrices/` repository folder to track diagnostic classification errors.
 
-###  Week 4: Hyperparameter Tuning & Model Optimization (In Progress)
+###  Week 4: Hyperparameter Tuning & Model Optimization 
 * **Optimization Framework:** Executed structured hyperparameter search strategies over tree depth, learning rates, estimator counts, and regularization settings.
 * **Overfitting Mitigation:** Tuned structural boundaries and validation splits to significantly minimize performance gaps between training and validation cohorts.
 * **Champion Model Selection:** Conducted final comparative evaluation to lock in the absolute highest-performing configuration for downstream Explainable AI (XAI) feature tracking.
