@@ -22,10 +22,12 @@
 * **Two-Stage Feature Selection ($p \gg n$):** Utilized a `VarianceThreshold` filter and an ANOVA F-Test (`SelectKBest`) to successfully isolate 9 core prognostic features.
 * **Leak-Proof Stratification:** Segmented samples into isolated, stratified matrices (**70% Train**, **15% Val**, **15% Test**) to prevent data leakage.
 
-###  Week 3: Baseline Model Development & Evaluation
+### 🔹 Week 3: Baseline Model Development & Evaluation (Completed)
 * **Model Implementation:** Programmatically trained three distinct core baseline machine learning classifiers: **Logistic Regression**, **Random Forest**, and **XGBoost**.
 * **Metrics Extraction:** Successfully extracted performance metrics evaluating model Accuracy, Precision, Recall, F1-Score, and ROC-AUC metrics.
 * **Error Diagnosis:** Generated and exported automated validation confusion matrices into the `visualizations/confusion_matrices/` repository folder to track diagnostic classification errors.
+
+> ** Champion Selection Result:** **Random Forest** has been selected as the project's **Champion Model** moving forward. Out of the box, it achieved the highest overall structural balance with an **Accuracy of 0.9714** and a dominant **F1-Score of 0.9600**, alongside a flawless clinical **Recall score of 1.0000** (zero False Negatives) and high threshold stability (**ROC-AUC: 0.9919**).
 
 ###  Week 4: Hyperparameter Tuning & Model Optimization 
 * **Optimization Framework:** Executed structured hyperparameter search strategies over tree depth, learning rates, estimator counts, and regularization settings.
