@@ -29,8 +29,8 @@
 
 > ** Champion Selection Result:** **Random Forest** has been selected as the project's **Champion Model** moving forward. Out of the box, it achieved the highest overall structural balance with an **Accuracy of 0.9714** and a dominant **F1-Score of 0.9600**, alongside a flawless clinical **Recall score of 1.0000** (zero False Negatives) and high threshold stability (**ROC-AUC: 0.9919**).
 
-###  Week 4: Hyperparameter Tuning & Model Optimization 
-* **Optimization Framework:** Executed structured hyperparameter search strategies over tree depth, learning rates, estimator counts, and regularization settings.
-* **Overfitting Mitigation:** Tuned structural boundaries and validation splits to significantly minimize performance gaps between training and validation cohorts.
-* **Champion Model Selection:** Conducted final comparative evaluation to lock in the absolute highest-performing configuration for downstream Explainable AI (XAI) feature tracking.
+###  Week 4: Hyperparameter Tuning & Model Optimization (In Progress)
+* **Optimization Framework:** Executing structured `GridSearchCV` cross-validation strategies exclusively on the baseline champion configuration (**Random Forest**).
+* **Overfitting Mitigation:** Tuning tree depth parameters (`max_depth`), splitting thresholds (`min_samples_split`), and estimator counts to bridge validation performance gaps.
+* **Champion Model Locking:** Finalizing structural parameters to secure the absolute highest-performing configuration for downstream Explainable AI (XAI) feature tracking.
   
